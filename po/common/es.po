@@ -54,7 +54,7 @@ msgstr "¡Te damos la bienvenida!"
 
 msgctxt "add_user_result"
 msgid "Thank you for joining us!"
-msgstr "¡Gracias por unirte!"
+msgstr "Gracias por unirte!"
 
 msgctxt "add_user_you_can_edit"
 msgid "You can now add and edit products on the web or with our free <a href=\"%s\">mobile app</a>."
@@ -2350,6 +2350,10 @@ msgctxt "serving_size_note"
 msgid "If the nutrition facts table contains values for the prepared product, indicate the total serving size of the prepared product (including added water or milk)."
 msgstr "Si la tabla de información nutricional contiene valores para el producto preparado, indica el tamaño de la porción total del producto preparado (incluida la leche o el agua agregada)."
 
+msgctxt "serving_too_small_for_nutrition_analysis"
+msgid "Serving size is too small (5 g / 5 ml or less) to calculate 100 g / 100 ml values and perform any further nutritional analysis"
+msgstr ""
+
 msgctxt "session_title"
 msgid "Sign-in"
 msgstr "Acceder"
@@ -2571,6 +2575,10 @@ msgctxt "users_without_products"
 msgid "Products not added by %s"
 msgstr "Productos que no han sido añadidos por %s"
 
+msgctxt "video_tutorials"
+msgid "Video Tutorials"
+msgstr ""
+
 msgctxt "view"
 msgid "view"
 msgstr "ver"
@@ -2609,7 +2617,7 @@ msgstr "Obténgalo de Microsoft"
 # Please change en-us to fr-fr, pt-br or de-ch…Check the URL !
 msgctxt "windows_phone_app_link"
 msgid "https://apps.microsoft.com/store/detail/open-food-facts-scan-to-get-nutriscore-ecoscore-and-more/XP8LT18SRPKLRG"
-msgstr "https://www.microsoft.com/es-us/p/openfoodfacts/9nblggh0dkqr"
+msgstr ""
 
 msgctxt "you_are_connected_as_x"
 msgid "You are connected as %s."
@@ -2657,7 +2665,7 @@ msgstr "Atención: la cantidad de frutas, verduras y frutos secos no se ha espec
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr ""
+msgstr "Atención: la cantidad de frutas, verduras y frutos secos no viene especificada en la etiqueta, por lo que se ha calculado manualmente de acuerdo con la lista de ingredientes: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
@@ -2665,7 +2673,7 @@ msgstr "Atención: la cantidad de frutas, verduras y frutos secos no viene espec
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Atención: la cantidad de frutas, verduras y frutos secos no viene especificada en la etiqueta, por lo que se ha calculado de acuerdo con la lista de ingredientes: %d"
+msgstr "Atención: la cantidad de frutas, verduras y frutos secos no viene especificada en la etiqueta, por lo que se ha hecho una estimación a partir la lista de ingredientes: %d"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -2914,12 +2922,12 @@ msgid "Risk of overexposure"
 msgstr "Riesgo de sobreexposición"
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_high"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of consuming too much <tag>."
-msgstr "La Autoridad Europea de Seguridad Alimentaria (EFSA) ha determinado que algunos grupos de población tienen un alto riesgo de consumir demasiada cantidad de <tag>."
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_moderate"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of consuming too much <tag>."
-msgstr "La Autoridad Europea de Seguridad Alimentaria (EFSA) ha determinado que algunos grupos de población tienen un riesgo moderado de consumir demasiada cantidad de <tag>."
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_description"
 msgid "To evaluate your exposure to the <tag> food additive, you can browse our list of products that contain it. See the list of <nb_products> products with <tag> below."
@@ -2946,12 +2954,12 @@ msgid "No or very low risk of over exposure"
 msgstr "Riesgo muy bajo o nulo de sobreexposición"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_adi"
-msgid "Risk of exceeding the acceptable daily intake (ADI)"
-msgstr "Riesgo de superar la ingesta diaria admisible (ADI)"
+msgid "Risk of reaching or exceeding the acceptable daily intake (ADI)"
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_noael"
-msgid "Risk of exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
-msgstr "Riesgo de exceder la dosis máxima sin efecto adverso (No se observa el nivel de efecto adverso - NOAEL)"
+msgid "Risk of reaching exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_mean_greater_than_adi"
 msgid "Groups with more than 50% of members exceeding the acceptable daily intake (ADI)"
@@ -2970,20 +2978,20 @@ msgid "Groups with more than 5% of members exceeding the maximum dose without ad
 msgstr "Grupos con más del 5% de miembros que exceden la dosis máxima sin efecto adverso (No se observa el nivel de efecto adverso - NOAEL)"
 
 msgctxt "exposure_title_95th"
-msgid "Some people"
-msgstr "Algunas personas"
+msgid "Moderate risk"
+msgstr ""
 
 msgctxt "exposure_description_95th"
-msgid "over 5%"
-msgstr "más del 5%"
+msgid "5% of people or more"
+msgstr ""
 
 msgctxt "exposure_title_mean"
-msgid "Most people"
-msgstr "La mayoría de la gente"
+msgid "High risk"
+msgstr ""
 
 msgctxt "exposure_description_mean"
-msgid "over 50%"
-msgstr "más del 50%"
+msgid "50% of people or more"
+msgstr ""
 
 msgctxt "wikipedia"
 msgid "Wikipedia"
@@ -4290,8 +4298,8 @@ msgid "Contributor"
 msgstr "Colaborador"
 
 msgctxt "contributor_settings_description"
-msgid "Those settings allow you to personalize some aspect of the website"
-msgstr "Esas configuraciones le permiten personalizar algún aspecto del sitio web"
+msgid "Those settings allow you to personalize some aspects of the website"
+msgstr ""
 
 msgctxt "display_barcode_in_search"
 msgid "Display barcode in search results"
@@ -4300,11 +4308,6 @@ msgstr "Mostrar código de barras en los resultados de búsqueda"
 msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "Añadir un enlace de edición en los resultados de búsqueda"
-
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d productos serán exportados."
 
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
@@ -4629,10 +4632,6 @@ msgstr "Alimentos ultraprocesados"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Exportar producto a base de datos pública"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "Se exportará 1 producto."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5128,6 +5127,10 @@ msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "Número de productos con cambios desde la última exportación"
 
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr ""
+
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
 msgstr "Exportar solo productos con cambios"
@@ -5277,8 +5280,8 @@ msgid "Remove all nutrient values"
 msgstr "Eliminar todos los valores de nutrientes"
 
 msgctxt "delete_user_process"
-msgid "User deleted."
-msgstr "Usuario eliminado."
+msgid "User is being deleted. This may take a few minutes."
+msgstr ""
 
 msgctxt "attribute_ecoscore_not_applicable_title"
 msgid "Eco-Score not yet applicable"
@@ -6524,4 +6527,21 @@ msgstr "Guía del usuario de la plataforma profesional"
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr "Preguntas frecuentes para productores"
+
+msgctxt "join_the_next_pros_meet_up"
+msgid "Join the next Pros' Meet-up"
+msgstr ""
+
+# variable names between { } must not be translated
+msgctxt "product_js_enter_value_between_0_and_max"
+msgid "Please enter a value between 0 and {max}."
+msgstr "Por favor ingresa un valor entre 0 y (max)."
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "Los azúcares no deben ser más altos que los carbohidratos."
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "La grasa saturada no debe ser más alta que la grasa."
 

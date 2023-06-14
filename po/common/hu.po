@@ -2347,6 +2347,10 @@ msgctxt "serving_size_note"
 msgid "If the nutrition facts table contains values for the prepared product, indicate the total serving size of the prepared product (including added water or milk)."
 msgstr "Ha a tápértéktáblázat tartalmaz az elkészített termékről értékeket, adja meg az elkészített termék tálalási adag méretét (beleértve a hozzáadott vizet és tejet)."
 
+msgctxt "serving_too_small_for_nutrition_analysis"
+msgid "Serving size is too small (5 g / 5 ml or less) to calculate 100 g / 100 ml values and perform any further nutritional analysis"
+msgstr ""
+
 msgctxt "session_title"
 msgid "Sign-in"
 msgstr "Bejelentkezés"
@@ -2568,6 +2572,10 @@ msgctxt "users_without_products"
 msgid "Products not added by %s"
 msgstr "Nem %s által hozzáadott termékek"
 
+msgctxt "video_tutorials"
+msgid "Video Tutorials"
+msgstr ""
+
 msgctxt "view"
 msgid "view"
 msgstr "nézet"
@@ -2605,7 +2613,7 @@ msgstr "Szerezze be a Microsoft-tól"
 # Please change en-us to fr-fr, pt-br or de-ch…Check the URL !
 msgctxt "windows_phone_app_link"
 msgid "https://apps.microsoft.com/store/detail/open-food-facts-scan-to-get-nutriscore-ecoscore-and-more/XP8LT18SRPKLRG"
-msgstr "https://www.microsoft.com/hu-hu/p/openfoodfacts/9nblggh0dkqr"
+msgstr ""
 
 msgctxt "you_are_connected_as_x"
 msgid "You are connected as %s."
@@ -2657,11 +2665,11 @@ msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "Figyelmeztetés: a gyümölcsök, zöldségek és diófélék mennyisége nincs megadva a címkén, ezért a(z) (%s) kategória alapján a termékben a becsült értékük: %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Figyelmeztetés: a gyümölcsök, zöldségek és diófélék mennyisége nincs megadva a címkén, ezért az összetevők alapján becsült értékük: %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -2910,12 +2918,12 @@ msgid "Risk of overexposure"
 msgstr "A túlzott fogyasztás kockázata"
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_high"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of consuming too much <tag>."
-msgstr "Az Európai Élelmiszerbiztonsági Hatóság (EFSA) megállapította, hogy egyes népességcsoportoknál nagy a kockázata a túl sok <tag> fogyasztásának."
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_moderate"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of consuming too much <tag>."
-msgstr "Az Európai Élelmiszerbiztonsági Hatóság (EFSA) megállapította, hogy egyes népességcsoportoknál a túl sok <tag> fogyasztásának kockázata mérsékelt."
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_description"
 msgid "To evaluate your exposure to the <tag> food additive, you can browse our list of products that contain it. See the list of <nb_products> products with <tag> below."
@@ -2942,12 +2950,12 @@ msgid "No or very low risk of over exposure"
 msgstr "Nincs, vagy nagyon alacsony a túlzott fogyasztás kockázata"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_adi"
-msgid "Risk of exceeding the acceptable daily intake (ADI)"
-msgstr "Az elfogadható napi bevitel (ADI) meghaladásának kockázata"
+msgid "Risk of reaching or exceeding the acceptable daily intake (ADI)"
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_noael"
-msgid "Risk of exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
-msgstr "A maximális dózis túllépésének veszélye káros hatás nélkül (mellékhatásmentes dózis - NOAEL)"
+msgid "Risk of reaching exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_mean_greater_than_adi"
 msgid "Groups with more than 50% of members exceeding the acceptable daily intake (ADI)"
@@ -2966,20 +2974,20 @@ msgid "Groups with more than 5% of members exceeding the maximum dose without ad
 msgstr "A csoport tagjainak több mint 5%-ánál túllépi a káros hatások nélküli legnagyobb dózis mennyiségét (a Nincs Megfigyelhető Káros Hatás szintjét - NOAEL)"
 
 msgctxt "exposure_title_95th"
-msgid "Some people"
-msgstr "Néhány ember"
+msgid "Moderate risk"
+msgstr ""
 
 msgctxt "exposure_description_95th"
-msgid "over 5%"
-msgstr "több mint 5%"
+msgid "5% of people or more"
+msgstr ""
 
 msgctxt "exposure_title_mean"
-msgid "Most people"
-msgstr "Legtöbb ember"
+msgid "High risk"
+msgstr ""
 
 msgctxt "exposure_description_mean"
-msgid "over 50%"
-msgstr "több mint 50%"
+msgid "50% of people or more"
+msgstr ""
 
 msgctxt "wikipedia"
 msgid "Wikipedia"
@@ -4286,7 +4294,7 @@ msgid "Contributor"
 msgstr "Hozzájáruló"
 
 msgctxt "contributor_settings_description"
-msgid "Those settings allow you to personalize some aspect of the website"
+msgid "Those settings allow you to personalize some aspects of the website"
 msgstr ""
 
 msgctxt "display_barcode_in_search"
@@ -4296,11 +4304,6 @@ msgstr ""
 msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr ""
-
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d termék lesz exportálva."
 
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
@@ -4625,10 +4628,6 @@ msgstr "Többszörösen feldolgozott élelmiszer"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Termék exportálása nyilvános adatbázisba"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1 termék lesz exportálva."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5124,6 +5123,10 @@ msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "A legutóbbi exportálás óta megváltozott termékek száma"
 
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr ""
+
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
 msgstr "Csak a változtatásokkal rendelkező termékek exportálása"
@@ -5273,8 +5276,8 @@ msgid "Remove all nutrient values"
 msgstr "Távolítson el minden tápanyagértéket"
 
 msgctxt "delete_user_process"
-msgid "User deleted."
-msgstr "Felhasználó törölve."
+msgid "User is being deleted. This may take a few minutes."
+msgstr ""
 
 msgctxt "attribute_ecoscore_not_applicable_title"
 msgid "Eco-Score not yet applicable"
@@ -6519,5 +6522,22 @@ msgstr ""
 
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
+msgstr ""
+
+msgctxt "join_the_next_pros_meet_up"
+msgid "Join the next Pros' Meet-up"
+msgstr ""
+
+# variable names between { } must not be translated
+msgctxt "product_js_enter_value_between_0_and_max"
+msgid "Please enter a value between 0 and {max}."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr ""
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
 msgstr ""
 

@@ -2352,6 +2352,10 @@ msgctxt "serving_size_note"
 msgid "If the nutrition facts table contains values for the prepared product, indicate the total serving size of the prepared product (including added water or milk)."
 msgstr "栄養成分表に調理済み製品の値が含まれている場合は、調理済み製品の一人前の分量 (添加の水または牛乳を含む) を示します。"
 
+msgctxt "serving_too_small_for_nutrition_analysis"
+msgid "Serving size is too small (5 g / 5 ml or less) to calculate 100 g / 100 ml values and perform any further nutritional analysis"
+msgstr "1回分の量が小さすぎる（5 g / 5 ml以下）ため、100 g / 100 mlの値を計算してさらに栄養分析を行うことができません。"
+
 msgctxt "session_title"
 msgid "Sign-in"
 msgstr "サインイン"
@@ -2573,6 +2577,10 @@ msgctxt "users_without_products"
 msgid "Products not added by %s"
 msgstr "%s が追加していない製品"
 
+msgctxt "video_tutorials"
+msgid "Video Tutorials"
+msgstr "ビデオチュートリアル"
+
 msgctxt "view"
 msgid "view"
 msgstr "表示"
@@ -2611,7 +2619,7 @@ msgstr "Windows Phone ストア"
 # Please change en-us to fr-fr, pt-br or de-ch…Check the URL !
 msgctxt "windows_phone_app_link"
 msgid "https://apps.microsoft.com/store/detail/open-food-facts-scan-to-get-nutriscore-ecoscore-and-more/XP8LT18SRPKLRG"
-msgstr "https://www.microsoft.com/ja-jp/p/openfoodfacts/9nblggh0dkqr"
+msgstr ""
 
 msgctxt "you_are_connected_as_x"
 msgid "You are connected as %s."
@@ -2659,15 +2667,15 @@ msgstr "警告: 果物、野菜、ナッツの量が指定されていません�
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr "警告: 果物、野菜、ナッツの量はラベルに明記されていません。原材料のリストから推定されました: %d"
+msgstr "警告：果物、野菜、ナッツの量がラベルに明記されていなかったため、原材料のリストから手作業で推定されました：%d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "警告: 果物、野菜、ナッツの量はラベルに明記されていません。製品のカテゴリー (%s) から推定されました: %d"
+msgstr "警告：果物、野菜、ナッツの量がラベルに明記されていなかったため、製品のカテゴリ（%s）から推定されました：%d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "警告: 果物、野菜、ナッツの量はラベルに明記されていません。原材料のリストから推定されました: %d"
+msgstr "警告：果物、野菜、ナッツの量がラベルに明記されていなかったため、原材料のリストから推定されました：%d"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -2916,12 +2924,12 @@ msgid "Risk of overexposure"
 msgstr "過剰暴露のリスク"
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_high"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of consuming too much <tag>."
-msgstr "欧州食品安全局 (EFSA) は、一部の人口グループは %1$s を過剰に摂取するという高いリスクがあると判断しました <tag>。"
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr "欧州食品安全機関 (EFSA) は、一部の集団グループは <tag>の 1 日あたりの許容摂取量 (ADI) に達するか、それを超えるリスクが高いと判断しました。"
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_moderate"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of consuming too much <tag>."
-msgstr "欧州食品安全局 (EFSA) は、一部の人口グループは %1$s を過剰に摂取するという中程度のリスクがあると判断しました <tag>。"
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr "欧州食品安全機関 (EFSA) は、一部の集団グループは <tag>の 1 日あたりの許容摂取量 (ADI) に達するか、それを超えるリスクが高いと判断しました。"
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_description"
 msgid "To evaluate your exposure to the <tag> food additive, you can browse our list of products that contain it. See the list of <nb_products> products with <tag> below."
@@ -2948,12 +2956,12 @@ msgid "No or very low risk of over exposure"
 msgstr "過剰暴露のリスクがない、または非常に低いです"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_adi"
-msgid "Risk of exceeding the acceptable daily intake (ADI)"
-msgstr "1日の許容摂取量 (ADI) を超えるリスク"
+msgid "Risk of reaching or exceeding the acceptable daily intake (ADI)"
+msgstr "1日あたりの許容摂取量（ADI）に達する、またはそれを超えるリスク"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_noael"
-msgid "Risk of exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
-msgstr "有害作用なしに最大用量を超えるリスク (有害作用レベルが観察されない - NOAEL)"
+msgid "Risk of reaching exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
+msgstr "有害作用なしに最大用量を超えるリスクがあります (有害作用レベルが観察されません - NOAEL)"
 
 msgctxt "additives_efsa_evaluation_exposure_mean_greater_than_adi"
 msgid "Groups with more than 50% of members exceeding the acceptable daily intake (ADI)"
@@ -2972,20 +2980,20 @@ msgid "Groups with more than 5% of members exceeding the maximum dose without ad
 msgstr "有害作用なしに最大用量を超えるメンバーが5％を超えるグループ (有害作用レベルが観察されない - NOAEL)"
 
 msgctxt "exposure_title_95th"
-msgid "Some people"
-msgstr "一部の人"
+msgid "Moderate risk"
+msgstr "中程度のリスク"
 
 msgctxt "exposure_description_95th"
-msgid "over 5%"
-msgstr "5％以上"
+msgid "5% of people or more"
+msgstr "5%以上の人が"
 
 msgctxt "exposure_title_mean"
-msgid "Most people"
-msgstr "ほとんどの人"
+msgid "High risk"
+msgstr "高いリスク"
 
 msgctxt "exposure_description_mean"
-msgid "over 50%"
-msgstr "50％以上"
+msgid "50% of people or more"
+msgstr "50％以上の人が"
 
 msgctxt "wikipedia"
 msgid "Wikipedia"
@@ -4292,7 +4300,7 @@ msgid "Contributor"
 msgstr "貢献者"
 
 msgctxt "contributor_settings_description"
-msgid "Those settings allow you to personalize some aspect of the website"
+msgid "Those settings allow you to personalize some aspects of the website"
 msgstr "これらの設定により、Webサイトの一部の側面をパーソナライズできます"
 
 msgctxt "display_barcode_in_search"
@@ -4302,11 +4310,6 @@ msgstr "検索結果にバーコードを表示する"
 msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "検索結果に編集リンクを追加"
-
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d 件の製品がエクスポートされます。"
 
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
@@ -4631,10 +4634,6 @@ msgstr "超加工食品"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "製品を公開データベースにエクスポートする"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1件の製品がエクスポートされます。"
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5130,6 +5129,10 @@ msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "前回のエクスポート以降に変更された製品の数"
 
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr "前回のエクスポート以降に変更された製品の数"
+
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
 msgstr "変更のある製品のみをエクスポートする"
@@ -5279,8 +5282,8 @@ msgid "Remove all nutrient values"
 msgstr "すべての栄養価を削除"
 
 msgctxt "delete_user_process"
-msgid "User deleted."
-msgstr "ユーザが削除されました。"
+msgid "User is being deleted. This may take a few minutes."
+msgstr "ユーザーが削除されています。これには数分かかる場合があります。"
 
 msgctxt "attribute_ecoscore_not_applicable_title"
 msgid "Eco-Score not yet applicable"
@@ -6526,4 +6529,21 @@ msgstr ""
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr ""
+
+msgctxt "join_the_next_pros_meet_up"
+msgid "Join the next Pros' Meet-up"
+msgstr "次回のプロの交流会に参加しましょう"
+
+# variable names between { } must not be translated
+msgctxt "product_js_enter_value_between_0_and_max"
+msgid "Please enter a value between 0 and {max}."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "糖質は炭水化物より高くてはなりません。"
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "飽和脂肪は脂肪よりも高くてはいけません。"
 

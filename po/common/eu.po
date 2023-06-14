@@ -2335,6 +2335,10 @@ msgctxt "serving_size_note"
 msgid "If the nutrition facts table contains values for the prepared product, indicate the total serving size of the prepared product (including added water or milk)."
 msgstr ""
 
+msgctxt "serving_too_small_for_nutrition_analysis"
+msgid "Serving size is too small (5 g / 5 ml or less) to calculate 100 g / 100 ml values and perform any further nutritional analysis"
+msgstr "Anoaren tamaina txikiegia da (5 g / 5 ml edo gutxiago) 100 g / 100 ml balioak kalkulatzeko eta ondorengo nutrizio-analisiak egin ahal izateko"
+
 msgctxt "session_title"
 msgid "Sign-in"
 msgstr "Hasi saioa"
@@ -2556,6 +2560,10 @@ msgctxt "users_without_products"
 msgid "Products not added by %s"
 msgstr ""
 
+msgctxt "video_tutorials"
+msgid "Video Tutorials"
+msgstr "Bideo-tutorialak"
+
 msgctxt "view"
 msgid "view"
 msgstr ""
@@ -2641,15 +2649,15 @@ msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr "Abisua: Fruten, barazkien eta fruitu lehorren kopuruak ez daude etiketan zehaztatuta, eskuz kalkulatua izan da osagaien zerrendatik: %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "Oharra: fruta, barazki eta fruitu lehorren kopurua ez dago etiketan zehaztuta, produktuaren (%s) kategorian kalkulatu da:% %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Abisua: fruta, barazki eta fruitu lehorren kopurua ez dago etiketan zehaztuta, osagai zerrendatik kalkulatu da:% %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -2898,12 +2906,12 @@ msgid "Risk of overexposure"
 msgstr ""
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_high"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of consuming too much <tag>."
-msgstr ""
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr "Elikagaien Segurtasunerako Europako Agintaritzak (EFSA) biztanle-talde batzuek <tag>-(e)ko Eguneko Ingesta Onargarrira (EIO) iristeko edo hau gainditzeko arrisku handia dute."
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_moderate"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of consuming too much <tag>."
-msgstr ""
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr "Elikagaien Segurtasunerako Europako Agintaritzak (EFSA) biztanle-talde batzuek <tag>-(e)ko Eguneko Ingesta Onargarrira (EIO) iristeko edo hau gainditzeko arrisku moderatua dute."
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_description"
 msgid "To evaluate your exposure to the <tag> food additive, you can browse our list of products that contain it. See the list of <nb_products> products with <tag> below."
@@ -2930,11 +2938,11 @@ msgid "No or very low risk of over exposure"
 msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_adi"
-msgid "Risk of exceeding the acceptable daily intake (ADI)"
-msgstr ""
+msgid "Risk of reaching or exceeding the acceptable daily intake (ADI)"
+msgstr "Eguneko Ingesta Onargarrira (EIO) iristeko edo hau gainditzeko arriskua"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_noael"
-msgid "Risk of exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
+msgid "Risk of reaching exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
 msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_mean_greater_than_adi"
@@ -2954,19 +2962,19 @@ msgid "Groups with more than 5% of members exceeding the maximum dose without ad
 msgstr ""
 
 msgctxt "exposure_title_95th"
-msgid "Some people"
+msgid "Moderate risk"
 msgstr ""
 
 msgctxt "exposure_description_95th"
-msgid "over 5%"
-msgstr "%5 baino gehiago"
+msgid "5% of people or more"
+msgstr ""
 
 msgctxt "exposure_title_mean"
-msgid "Most people"
+msgid "High risk"
 msgstr ""
 
 msgctxt "exposure_description_mean"
-msgid "over 50%"
+msgid "50% of people or more"
 msgstr ""
 
 msgctxt "wikipedia"
@@ -4274,8 +4282,8 @@ msgid "Contributor"
 msgstr "Ekarlea"
 
 msgctxt "contributor_settings_description"
-msgid "Those settings allow you to personalize some aspect of the website"
-msgstr ""
+msgid "Those settings allow you to personalize some aspects of the website"
+msgstr "Ezarpen horiek webguneko hainbat alderdi pertsonalizatzea eskaintzen dizute"
 
 msgctxt "display_barcode_in_search"
 msgid "Display barcode in search results"
@@ -4283,11 +4291,6 @@ msgstr ""
 
 msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
-msgstr ""
-
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
 msgstr ""
 
 msgctxt "ciqual_food_name"
@@ -4612,10 +4615,6 @@ msgstr ""
 
 msgctxt "export_product_page"
 msgid "Export product to public database"
-msgstr ""
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
 msgstr ""
 
 msgctxt "no_products_to_export"
@@ -5112,6 +5111,10 @@ msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr ""
 
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr "Azken esportaziotik, merkatutik ateratako produktuen kopurua"
+
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
 msgstr ""
@@ -5261,8 +5264,8 @@ msgid "Remove all nutrient values"
 msgstr ""
 
 msgctxt "delete_user_process"
-msgid "User deleted."
-msgstr ""
+msgid "User is being deleted. This may take a few minutes."
+msgstr "Erabiltzailea ezabatzen. Honek minutu gutxi har litzake."
 
 msgctxt "attribute_ecoscore_not_applicable_title"
 msgid "Eco-Score not yet applicable"
@@ -6508,4 +6511,21 @@ msgstr "Plataforma profesionalaren erabiltzaile-gida"
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr "Maiz egindako galderak produktoreentzat"
+
+msgctxt "join_the_next_pros_meet_up"
+msgid "Join the next Pros' Meet-up"
+msgstr "Batu zaitez hurrengo profesionalen topaketan"
+
+# variable names between { } must not be translated
+msgctxt "product_js_enter_value_between_0_and_max"
+msgid "Please enter a value between 0 and {max}."
+msgstr "Mesedez, sartu 0 eta {max} bitarteko balio bat."
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "Azukreek ez lukete karobohidratoak baino altuagoak izan behar."
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "Gantz aseak ez luke gantza baino altuagoa izan behar."
 

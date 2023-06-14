@@ -2346,6 +2346,10 @@ msgctxt "serving_size_note"
 msgid "If the nutrition facts table contains values for the prepared product, indicate the total serving size of the prepared product (including added water or milk)."
 msgstr "Pokud výživová tabulka obsahuje hodnoty pro připravený produkt, uveďte celkovou servírovací velikost připraveného výrobku (včetně přidané vody nebo mléka)."
 
+msgctxt "serving_too_small_for_nutrition_analysis"
+msgid "Serving size is too small (5 g / 5 ml or less) to calculate 100 g / 100 ml values and perform any further nutritional analysis"
+msgstr "Velikost porce je příliš malá (5 g / 5 ml nebo méně), aby bylo možné vypočítat hodnoty 100 g / 100 ml a provést další nutriční analýzu"
+
 msgctxt "session_title"
 msgid "Sign-in"
 msgstr "Přihlásit se"
@@ -2567,6 +2571,10 @@ msgctxt "users_without_products"
 msgid "Products not added by %s"
 msgstr "Produkty nepřidané od %s"
 
+msgctxt "video_tutorials"
+msgid "Video Tutorials"
+msgstr "Video návody"
+
 msgctxt "view"
 msgid "view"
 msgstr "zobrazit"
@@ -2605,7 +2613,7 @@ msgstr "Získejte to od společnosti Microsoft"
 # Please change en-us to fr-fr, pt-br or de-ch…Check the URL !
 msgctxt "windows_phone_app_link"
 msgid "https://apps.microsoft.com/store/detail/open-food-facts-scan-to-get-nutriscore-ecoscore-and-more/XP8LT18SRPKLRG"
-msgstr "https://apps.microsoft.com/store/detail/open-food-facts-scan-to-get-nutriscore-ecoscore-and-more/XP8LT18SRPKLRG"
+msgstr ""
 
 msgctxt "you_are_connected_as_x"
 msgid "You are connected as %s."
@@ -2657,11 +2665,11 @@ msgstr "Upozornění: množství ovoce, zeleniny a ořechů není na etiketě uv
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "Upozornění: množství ovoce, zeleniny a ořechů není uvedeno na štítku, bylo odhadnuto z kategorie (%s) produktu: %d"
+msgstr "Upozornění: na etiketě není uvedeno množství ovoce, zeleniny a ořechů, bylo odhadnuto z kategorie (%s) produktu: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Upozornění: množství ovoce, zeleniny a ořechů není uvedeno na etiketě, bylo tedy odhadnuto ze složení: %d"
+msgstr "Upozornění: množství ovoce, zeleniny a ořechů není na etiketě uvedeno, bylo odhadnuto ze seznamu ingrediencí: %d"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -2910,12 +2918,12 @@ msgid "Risk of overexposure"
 msgstr "Riziko přeexponování"
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_high"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of consuming too much <tag>."
-msgstr "Evropský úřad pro bezpečnost potravin (EFSA) zjistil, že nadměrná konzumace <tag> je velmi riziková pro některé skupiny obyvatel."
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr "Evropský úřad pro bezpečnost potravin (EFSA) zjistil, že některé skupiny populace mají vysoké riziko dosažení nebo překročení přijatelného denního příjmu (ADI) pro <tag>."
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_moderate"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of consuming too much <tag>."
-msgstr "Evropský úřad pro bezpečnost potravin (EFSA) zjistil, že nadměrná konzumace <tag> je mírně riziková pro některé skupiny obyvatel."
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr "Evropský úřad pro bezpečnost potravin (EFSA) stanovil, že některé skupiny populace mají střední riziko dosažení nebo překročení přijatelného denního příjmu (ADI) pro <tag>."
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_description"
 msgid "To evaluate your exposure to the <tag> food additive, you can browse our list of products that contain it. See the list of <nb_products> products with <tag> below."
@@ -2942,12 +2950,12 @@ msgid "No or very low risk of over exposure"
 msgstr "Žádné nebo velmi nízké riziko nadměrného příjmu"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_adi"
-msgid "Risk of exceeding the acceptable daily intake (ADI)"
-msgstr "Riziko překročení přijatelného denního příjmu (ADI)"
+msgid "Risk of reaching or exceeding the acceptable daily intake (ADI)"
+msgstr "Riziko dosažení nebo překročení přijatelného denního příjmu (ADI)"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_noael"
-msgid "Risk of exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
-msgstr "Riziko překročení nejvyšší dávky, pří které není pozorován nežádoucí účinek (dávka bez pozorovaných nežádoucích účinků - NOAEL)"
+msgid "Risk of reaching exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
+msgstr "Riziko dosažení překročení maximální dávky bez nepříznivého účinku (hladina bez pozorovaných nežádoucích účinků - NOAEL)"
 
 msgctxt "additives_efsa_evaluation_exposure_mean_greater_than_adi"
 msgid "Groups with more than 50% of members exceeding the acceptable daily intake (ADI)"
@@ -2966,20 +2974,20 @@ msgid "Groups with more than 5% of members exceeding the maximum dose without ad
 msgstr "Skupiny s více než 5 % členů překračujícími maximální dávku bez nežádoucího účinku (hladina bez pozorovaných nežádoucích účinků - NOAEL)"
 
 msgctxt "exposure_title_95th"
-msgid "Some people"
-msgstr "Část populace"
+msgid "Moderate risk"
+msgstr "Střední riziko"
 
 msgctxt "exposure_description_95th"
-msgid "over 5%"
-msgstr "více než 5 %"
+msgid "5% of people or more"
+msgstr "5 % lidí nebo více"
 
 msgctxt "exposure_title_mean"
-msgid "Most people"
-msgstr "Většina populace"
+msgid "High risk"
+msgstr "Vysoké riziko"
 
 msgctxt "exposure_description_mean"
-msgid "over 50%"
-msgstr "nad 50 %"
+msgid "50% of people or more"
+msgstr "50 % lidí nebo více"
 
 msgctxt "wikipedia"
 msgid "Wikipedia"
@@ -4286,8 +4294,8 @@ msgid "Contributor"
 msgstr "Přispěvatel"
 
 msgctxt "contributor_settings_description"
-msgid "Those settings allow you to personalize some aspect of the website"
-msgstr "Tato nastavení vám umožňují přizpůsobit některé aspekty webu"
+msgid "Those settings allow you to personalize some aspects of the website"
+msgstr "Tato nastavení vám umožňují přizpůsobit některé aspekty webových stránek"
 
 msgctxt "display_barcode_in_search"
 msgid "Display barcode in search results"
@@ -4296,11 +4304,6 @@ msgstr "Zobrazit čárový kód ve výsledcích hledání"
 msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "Přidat editační odkaz ve výsledcích hledání"
-
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d produktů bude exportováno."
 
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
@@ -4625,10 +4628,6 @@ msgstr "Ultra zpracované potraviny"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Export produktu do veřejné databáze"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1 produkt bude exportován."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5124,6 +5123,10 @@ msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "Počet produktů se změnami od posledního exportu"
 
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr "Počet produktů stažených z trhu od posledního exportu"
+
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
 msgstr "Exportovat pouze produkty se změnami"
@@ -5273,8 +5276,8 @@ msgid "Remove all nutrient values"
 msgstr "Odstranit všechny nutriční hodnoty"
 
 msgctxt "delete_user_process"
-msgid "User deleted."
-msgstr "Uživatel byl smazán."
+msgid "User is being deleted. This may take a few minutes."
+msgstr "Uživatel se odstraňuje. Může to trvat několik minut."
 
 msgctxt "attribute_ecoscore_not_applicable_title"
 msgid "Eco-Score not yet applicable"
@@ -6520,4 +6523,21 @@ msgstr "Průvodce pro uživatele platformy Pro"
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr "Nejčastější dotazy pro výrobce"
+
+msgctxt "join_the_next_pros_meet_up"
+msgid "Join the next Pros' Meet-up"
+msgstr "Připojte se k dalšímu setkání profesionálů"
+
+# variable names between { } must not be translated
+msgctxt "product_js_enter_value_between_0_and_max"
+msgid "Please enter a value between 0 and {max}."
+msgstr "Zadejte hodnotu mezi 0 a {max}."
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "Cukry by neměly být vyšší než sacharidy."
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "Nasycený tuk by neměl být vyšší než tuk."
 

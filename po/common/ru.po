@@ -607,7 +607,7 @@ msgstr ""
 
 msgctxt "emb_codes_p"
 msgid "traceability codes"
-msgstr ""
+msgstr "Коды упаковщика"
 
 msgctxt "emb_codes_products"
 msgid "Products with the traceability code %s"
@@ -1122,7 +1122,7 @@ msgstr "Доступно в App Store"
 
 msgctxt "ios_app_link"
 msgid "https://apps.apple.com/app/open-food-facts/id588797948"
-msgstr "https://apps.apple.com/ru/app/open-food-facts/id588797948"
+msgstr "en:Plant-based foods"
 
 msgctxt "known_nutrients_p"
 msgid "known nutrients"
@@ -2352,6 +2352,10 @@ msgctxt "serving_size_note"
 msgid "If the nutrition facts table contains values for the prepared product, indicate the total serving size of the prepared product (including added water or milk)."
 msgstr "Если таблица пищевой ценности содержит значения для приготовленного продукта, укажите общий размер порций приготовленного продукта (включая воду или молоко)."
 
+msgctxt "serving_too_small_for_nutrition_analysis"
+msgid "Serving size is too small (5 g / 5 ml or less) to calculate 100 g / 100 ml values and perform any further nutritional analysis"
+msgstr ""
+
 msgctxt "session_title"
 msgid "Sign-in"
 msgstr "Войти"
@@ -2573,6 +2577,10 @@ msgctxt "users_without_products"
 msgid "Products not added by %s"
 msgstr "Продукты, добавленные не %s"
 
+msgctxt "video_tutorials"
+msgid "Video Tutorials"
+msgstr ""
+
 msgctxt "view"
 msgid "view"
 msgstr "просмотр"
@@ -2611,7 +2619,7 @@ msgstr "Скачайте на Microsoft"
 # Please change en-us to fr-fr, pt-br or de-ch…Check the URL !
 msgctxt "windows_phone_app_link"
 msgid "https://apps.microsoft.com/store/detail/open-food-facts-scan-to-get-nutriscore-ecoscore-and-more/XP8LT18SRPKLRG"
-msgstr "https://www.microsoft.com/ru-ru/p/openfoodfacts/9nblggh0dkqr"
+msgstr ""
 
 msgctxt "you_are_connected_as_x"
 msgid "You are connected as %s."
@@ -2663,11 +2671,11 @@ msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "Предупреждение: количество фруктов, овощей и орехов не указано на этикетке, оно оценивалось по категории (%s) продукта: %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Предупреждение: количество фруктов, овощей и орехов не указано на этикетке, оно было определено из списка ингредиентов: %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -2916,12 +2924,12 @@ msgid "Risk of overexposure"
 msgstr "Риск чрезмерного воздействия"
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_high"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of consuming too much <tag>."
-msgstr "Европейское агентство по безопасности продуктов питания (EFSA) определило, что некоторые группы населения имеют высокий риск чрезмерного потребления <tag>."
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_moderate"
-msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of consuming too much <tag>."
-msgstr "Европейское агентство по безопасности продуктов питания (EFSA) определило, что некоторые группы населения имеют повышенный риск чрезмерного потребления <tag>."
+msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_description"
 msgid "To evaluate your exposure to the <tag> food additive, you can browse our list of products that contain it. See the list of <nb_products> products with <tag> below."
@@ -2948,12 +2956,12 @@ msgid "No or very low risk of over exposure"
 msgstr "Отсутствие или очень низкий риск чрезмерного воздействия"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_adi"
-msgid "Risk of exceeding the acceptable daily intake (ADI)"
-msgstr "Риск превышения допустимой дневной нормы (ADI)"
+msgid "Risk of reaching or exceeding the acceptable daily intake (ADI)"
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_noael"
-msgid "Risk of exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
-msgstr "Риск превышения максимальной дозы без неблагоприятного эффекта (NOAEL)"
+msgid "Risk of reaching exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
+msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_mean_greater_than_adi"
 msgid "Groups with more than 50% of members exceeding the acceptable daily intake (ADI)"
@@ -2972,20 +2980,20 @@ msgid "Groups with more than 5% of members exceeding the maximum dose without ad
 msgstr "Группы с более чем 5% членов, превышающих максимальную дозу без неблагоприятного эффекта (NOAEL)"
 
 msgctxt "exposure_title_95th"
-msgid "Some people"
-msgstr "Некоторые люди"
+msgid "Moderate risk"
+msgstr ""
 
 msgctxt "exposure_description_95th"
-msgid "over 5%"
-msgstr "свыше 5%"
+msgid "5% of people or more"
+msgstr ""
 
 msgctxt "exposure_title_mean"
-msgid "Most people"
-msgstr "Большинство людей"
+msgid "High risk"
+msgstr ""
 
 msgctxt "exposure_description_mean"
-msgid "over 50%"
-msgstr "свыше 50%"
+msgid "50% of people or more"
+msgstr ""
 
 msgctxt "wikipedia"
 msgid "Wikipedia"
@@ -4292,8 +4300,8 @@ msgid "Contributor"
 msgstr "Участник"
 
 msgctxt "contributor_settings_description"
-msgid "Those settings allow you to personalize some aspect of the website"
-msgstr "Эти настройки позволяют вам персонализировать некоторые аспекты веб-сайта"
+msgid "Those settings allow you to personalize some aspects of the website"
+msgstr ""
 
 msgctxt "display_barcode_in_search"
 msgid "Display barcode in search results"
@@ -4301,12 +4309,7 @@ msgstr ""
 
 msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
-msgstr ""
-
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "Будет экспортировано %d товаров."
+msgstr "Добавить ссылку редактирования в результатах поиска"
 
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
@@ -4631,10 +4634,6 @@ msgstr ""
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr ""
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "Будет экспортирован 1 продукт."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5130,6 +5129,10 @@ msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "Количество продуктов с изменениями с момента последнего экспорта"
 
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr ""
+
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
 msgstr "Экспорт продуктов только с изменениями"
@@ -5222,7 +5225,7 @@ msgstr ""
 
 msgctxt "sort_by_popularity"
 msgid "Most scanned products"
-msgstr ""
+msgstr "Самые просматриваемые товары"
 
 msgctxt "sort_by_nutriscore_score"
 msgid "Products with the best Nutri-Score"
@@ -5279,8 +5282,8 @@ msgid "Remove all nutrient values"
 msgstr ""
 
 msgctxt "delete_user_process"
-msgid "User deleted."
-msgstr "Пользователь удалён."
+msgid "User is being deleted. This may take a few minutes."
+msgstr ""
 
 msgctxt "attribute_ecoscore_not_applicable_title"
 msgid "Eco-Score not yet applicable"
@@ -5702,7 +5705,7 @@ msgstr "Для этого продукта нет информации об уп
 
 msgctxt "ecoscore_origins_of_ingredients_impact_high"
 msgid "Origins of ingredients with a high impact"
-msgstr ""
+msgstr "Происхождение ингредиентов с низким экологическим воздействием"
 
 msgctxt "ecoscore_origins_of_ingredients_impact_medium"
 msgid "Origins of ingredients with a medium impact"
@@ -6525,5 +6528,22 @@ msgstr ""
 
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
+msgstr ""
+
+msgctxt "join_the_next_pros_meet_up"
+msgid "Join the next Pros' Meet-up"
+msgstr ""
+
+# variable names between { } must not be translated
+msgctxt "product_js_enter_value_between_0_and_max"
+msgid "Please enter a value between 0 and {max}."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr ""
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
 msgstr ""
 
