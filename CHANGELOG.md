@@ -1,5 +1,41 @@
 # Changelog
 
+## [2.14.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v2.13.0...v2.14.0) (2023-06-14)
+
+
+### Features
+
+* Able to view the list of users associated with an Organization ([#8511](https://github.com/openfoodfacts/openfoodfacts-server/issues/8511)) ([2472419](https://github.com/openfoodfacts/openfoodfacts-server/commit/24724199f5d2b2f9cf703c249385bdc7aab64cdb))
+* Added Pros' Meet-Ups link in Menu ([#8512](https://github.com/openfoodfacts/openfoodfacts-server/issues/8512)) ([2482d86](https://github.com/openfoodfacts/openfoodfacts-server/commit/2482d86815e2cfe2fad7ea74ba0075ec82e8872c))
+* Hide the Classic Packaging Field in Edit Mode ([#8500](https://github.com/openfoodfacts/openfoodfacts-server/issues/8500)) ([09e86b4](https://github.com/openfoodfacts/openfoodfacts-server/commit/09e86b4ccce0381363b45eb16e4a83ff69d0cb27))
+* Run user deletion as a background task ([#8516](https://github.com/openfoodfacts/openfoodfacts-server/issues/8516)) ([8d0674e](https://github.com/openfoodfacts/openfoodfacts-server/commit/8d0674ef25d07dd3c04372fa998d791d2f977188))
+
+
+### Bug Fixes
+
+* Added Template Comments instead of html ([#8533](https://github.com/openfoodfacts/openfoodfacts-server/issues/8533)) ([2369f07](https://github.com/openfoodfacts/openfoodfacts-server/commit/2369f07dc1286d4f5c98ea7f1121d283f271ecb8))
+* Build Taxonomies does not cache the full json files ([#8557](https://github.com/openfoodfacts/openfoodfacts-server/issues/8557)) ([abe1ef9](https://github.com/openfoodfacts/openfoodfacts-server/commit/abe1ef91376a36cbdd60a4ba95be455723baef5c))
+* Preventing Email Addresses as Entries in Fields ([#8452](https://github.com/openfoodfacts/openfoodfacts-server/issues/8452)) ([5bc8dbc](https://github.com/openfoodfacts/openfoodfacts-server/commit/5bc8dbc52729739ba30e24fbb68dd6483a49e5e8))
+* remove warning in get_inherited_property_from_categories_tags ([#8531](https://github.com/openfoodfacts/openfoodfacts-server/issues/8531)) ([783364b](https://github.com/openfoodfacts/openfoodfacts-server/commit/783364b352760005dd03100c4243dcd844e30e40))
+* Replace the link to the defunct Windows Mobile App by the Microsoft App link ([#8543](https://github.com/openfoodfacts/openfoodfacts-server/issues/8543)) ([4b66a91](https://github.com/openfoodfacts/openfoodfacts-server/commit/4b66a91c867822632385776b07a3d3683dcc3dc1))
+* Restore Search Bar in Producers Platform ([#8532](https://github.com/openfoodfacts/openfoodfacts-server/issues/8532)) ([b9f0c59](https://github.com/openfoodfacts/openfoodfacts-server/commit/b9f0c59eb555e60f2ed753f8ef6c4556f6136a25))
+* Squashed commits of various fixes [#8408](https://github.com/openfoodfacts/openfoodfacts-server/issues/8408), [#8332](https://github.com/openfoodfacts/openfoodfacts-server/issues/8332), [#8354](https://github.com/openfoodfacts/openfoodfacts-server/issues/8354), [#6525](https://github.com/openfoodfacts/openfoodfacts-server/issues/6525), [#3372](https://github.com/openfoodfacts/openfoodfacts-server/issues/3372) ([#8437](https://github.com/openfoodfacts/openfoodfacts-server/issues/8437)) ([da644c3](https://github.com/openfoodfacts/openfoodfacts-server/commit/da644c3f9126a9643f668a74642bf09df0620978))
+
+
+### Technical
+
+* fix wrong API doc URL ([#8487](https://github.com/openfoodfacts/openfoodfacts-server/issues/8487)) ([d635e20](https://github.com/openfoodfacts/openfoodfacts-server/commit/d635e20125315fe00170688b3a511410177be6d7))
+* Restructured Pro-docs ([#8494](https://github.com/openfoodfacts/openfoodfacts-server/issues/8494)) ([b1323c9](https://github.com/openfoodfacts/openfoodfacts-server/commit/b1323c9f4792c18086bfb7ccde5263e687b45314))
+* storing expected results of tests as JSON ([#8547](https://github.com/openfoodfacts/openfoodfacts-server/issues/8547)) ([8b4d4fd](https://github.com/openfoodfacts/openfoodfacts-server/commit/8b4d4fd148f2694a4cdb03762a5eb00ecac625cd))
+
+
+### Taxonomy
+
+* add fi translation for Crossed Grain Trademark ([#8550](https://github.com/openfoodfacts/openfoodfacts-server/issues/8550)) ([b27fabd](https://github.com/openfoodfacts/openfoodfacts-server/commit/b27fabd7acf71363406d986c7f0b972cb1fccadc))
+* Add Spanish/Catalan sugars for creatine products ([#8491](https://github.com/openfoodfacts/openfoodfacts-server/issues/8491)) ([f8397e8](https://github.com/openfoodfacts/openfoodfacts-server/commit/f8397e8a45fb18bd8ca1476cdf7c62a5f346629a))
+* Added German variant of inositol ([#8473](https://github.com/openfoodfacts/openfoodfacts-server/issues/8473)) ([2779a3c](https://github.com/openfoodfacts/openfoodfacts-server/commit/2779a3c053e68e32832607c61874384366680565))
+* Ro translations ([#8521](https://github.com/openfoodfacts/openfoodfacts-server/issues/8521)) ([23d27a8](https://github.com/openfoodfacts/openfoodfacts-server/commit/23d27a8e1fac2e45b7d760a43efd5748f166a6b1))
+
 ## [2.13.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v2.12.0...v2.13.0) (2023-05-31)
 
 
